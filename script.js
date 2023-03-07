@@ -1,2 +1,2 @@
-const win = (p => $('#' + p + '-total').val($('#' + p+'-bet').val() + $('#' + p + '-total').val()));
-const lose = (p => $('#' + p + '-total').val($('#' + p + '-total').val() - $('#' + p+'-bet').val()));
+const win = (p => $('#' + p + '-total').val(parseInt($('#' + p+'-bet').val()) + parseInt($('#' + p + '-total').val())));
+const lose = (p => $('#' + p + '-total').val(parseInt($('#' + p + '-total').val()) - parseInt($('#' + p+'-bet').val())));
