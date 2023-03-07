@@ -1,0 +1,2 @@
+const win = (p => $('#' + p + '-total').val($('#' + p+'-bet').val() + $('#' + p + '-total').val()));
+const lose = (p => $('#' + p + '-total').val($('#' + p + '-total').val() - $('#' + p+'-bet').val()));
